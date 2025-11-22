@@ -1,12 +1,13 @@
 name: .NET Core Desktop
 
 on:
-  # push:
-    # branches: [ "Development" ]
+   push:
+     branches: [ "Development" ]
+     workflow_dispatch: {}
 
-  pull_request:
-    branches: [ "Development" ]
-    types: [opened, synchronize]
+  #pull_request:
+  #  branches: [ "Development" ]
+  #  types: [opened, synchronize]
 
 env:
   Solution: src/LogExpert.sln
