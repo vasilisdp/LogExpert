@@ -2,8 +2,8 @@ name: .NET Core Desktop
 
 on:
    push:
-     branches: [ "Development" ]
-     workflow_dispatch: {}
+     branches: [ Development ]
+  #workflow_dispatch: {}
 
   #pull_request:
   #  branches: [ "Development" ]
